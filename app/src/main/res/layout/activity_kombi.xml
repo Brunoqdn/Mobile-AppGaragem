@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preto_botao"
+    tools:context=".Kombi">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="476dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kombi_grande" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="402dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="316dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.978">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/conferencia_kombi"
+            style="@style/Button"
+            android:layout_marginTop="260dp"
+            android:text="Conferência"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Kombi"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textViewAno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Ano"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewEB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="sans-serif-black"
+            android:text="EB"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewChassi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Chassi"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewCombustivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Combustível"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewOleoM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="185dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Óleo Motor"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewOleoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="215dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Óleo Câmbio"
+            android:textAlignment="center"
+            android:textColor="@color/preto_botao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewAnoR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="2019"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewEBR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="3410224822"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewChassiR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="9BFZEANE4DB530207"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewCombustivelR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="155dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="275L Gasolina"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewOleoMR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="185dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="20L"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewOleoCR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="215dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="15L"
+            android:textColor="@color/azul_padrao"
+            android:textSize="25dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
